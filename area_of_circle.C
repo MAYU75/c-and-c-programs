@@ -3,11 +3,11 @@
 void main()
 {
  int radius;
- float area;
+ float pi=3.142,area;
  clrscr();
  printf("\n Enter the radius of the circle:");
  scanf("%d",&radius);
- area=3.14*radius*radius;
+ area=pi*radius*radius;
  printf("\n Area of circle is %f",area);
  getch();
 }
