@@ -9,7 +9,7 @@ void main()
  scanf("%d",&num);
  originalnum=num;
  i=0;
- while(i<3)
+ do
  {
  if(num!=0)
  {
@@ -18,7 +18,7 @@ void main()
   num=num/10;
  }
  i++;
- }
+ }while(i<3);
  if(originalnum==reversenum)
  {
  printf("\n %d is a palindrone number.",originalnum);
